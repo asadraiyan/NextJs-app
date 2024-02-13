@@ -24,6 +24,12 @@ export default function Home() {
       <main className={styles.main}>
         <div className={styles.description}>
           <h1>Hunting Coder</h1>
+          <Image
+            className={styles.myImg}
+            src="/homeimg.avif"
+            width={250}
+            height={160}
+          ></Image>
           <p>A blog for hunting coders by a hunting coder</p>
         </div>
         <div className={styles.blogs}>

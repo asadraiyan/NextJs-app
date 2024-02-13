@@ -41,3 +41,6 @@
   width: 100%;
   font-family: var(--font-mono);
 }
+.myImg {
+  border-radius: 10px;
+}
