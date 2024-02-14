@@ -1,34 +1,32 @@
 .mainnav ul {
   display: flex;
   justify-content: center;
-  margin-top: 50px;
+  margin-top: 25px;
 }
 .mainnav ul li {
   margin: 1rem 24px;
   list-style: none;
   font-weight: bold;
 }
+.link {
+  text-decoration: none;
+  color: black;
+}
 .main {
   display: flex;
   width: 100%;
   flex-direction: column;
-  /* justify-content: center;
-  align-items: center; */
   min-height: 100vh;
-  padding: 2rem;
 }
 .blogs {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 2rem;
 }
 .blogItem {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 
 .description {
@@ -36,10 +34,12 @@
   flex-direction: column;
   /* border: 2px solid red; */
   justify-content: center;
-  gap: 1rem;
   align-items: center;
   width: 100%;
   font-family: var(--font-mono);
+}
+.description h1 {
+  font-size: 35px;
 }
 .myImg {
   border-radius: 10px;
